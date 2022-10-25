@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaymoveTeste", "PlaymoveTeste\PlaymoveTeste.csproj", "{FBADF339-90F3-49B0-BEC2-84D759DBFF4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBADF339-90F3-49B0-BEC2-84D759DBFF4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBADF339-90F3-49B0-BEC2-84D759DBFF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBADF339-90F3-49B0-BEC2-84D759DBFF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBADF339-90F3-49B0-BEC2-84D759DBFF4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DBFF378-67D3-4408-96C3-F5585B5B3D01}
+	EndGlobalSection
+EndGlobal
