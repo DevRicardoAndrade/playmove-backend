@@ -27,6 +27,19 @@ namespace PlaymoveTeste.Controllers
                 return NotFound($"ERROR: {ex.Message}");
             }
         }
+        [HttpGet("/Fornecedor/Telefone/{fornecedorId:int}")]
+        public ActionResult<IEnumerable<FornecedoresTelefonesModel>> GetByFornecedor(int fornecedorId)
+        {
+            try
+            {
+                return _fornecedoresTelefones.GetByFornecedor(fornecedorId);
+
+            }
+            catch (Exception ex)
+            {
+                return NotFound($"ERROR: {ex.Message}");
+            }
+        }
 
         [HttpGet("{id:int}")]
         public ActionResult<FornecedoresTelefonesModel> Get(int id)

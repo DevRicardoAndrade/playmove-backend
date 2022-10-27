@@ -17,7 +17,9 @@ namespace PlaymoveTeste.Model
         public int EmpresaId { get; set; }
         [JsonIgnore]
         public EmpresasModel? Empresa { get; set; }
-        public DateTime? Data_Hora_Cadatro { get; set; }
+        public DateTime? Data_Hora_Cadatro { get; set; } = DateTime.Now;
+        public DateTime? Nascimento { get; set; }
+        public string? RG { get; set; }
         public ICollection<FornecedoresTelefonesModel>? Telefones { get; set; }
     }
 }

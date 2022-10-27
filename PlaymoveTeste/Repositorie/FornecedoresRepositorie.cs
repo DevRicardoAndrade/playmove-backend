@@ -80,6 +80,9 @@ namespace PlaymoveTeste.Repositorie
             try
             {
                 FornecedoresModel fornecedorUpdate = GetById(id);
+                fornecedorUpdate.RG = model.RG;
+                fornecedorUpdate.Nascimento = model.Nascimento;
+                fornecedorUpdate.EmpresaId = model.EmpresaId;
                 fornecedorUpdate.Nome = model.Nome;
                 fornecedorUpdate.Telefones = model.Telefones;
                 fornecedorUpdate.CNPJ = model.CNPJ;

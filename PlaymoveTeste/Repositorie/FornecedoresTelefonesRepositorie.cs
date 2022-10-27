@@ -11,11 +11,11 @@ namespace PlaymoveTeste.Repositorie
         {
             _context = context;
         }
-        public FornecedoresTelefonesModel GetByFornecedor(int FornecedorId)
+        public List<FornecedoresTelefonesModel> GetByFornecedor(int FornecedorId)
         {
             try
             {
-                return _context.FornecedoresTelefones.FirstOrDefault(ft => ft.FornecedorId == FornecedorId);
+                return _context.FornecedoresTelefones.Where(ft => ft.FornecedorId == FornecedorId).ToList();
             }
             catch (Exception)
             {
